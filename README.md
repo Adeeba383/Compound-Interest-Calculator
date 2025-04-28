@@ -12,7 +12,7 @@ A simple compound interest calculator that allows users to calculate interest ba
 
 ## Usage
 
-1. Open the file in your browser.
+1. Open the [https://adeeba383.github.io/Compound-Interest-Calculator/] file in your browser.
 2. Input the principal amount, interest rate, and select the compounding frequency.
 3. Choose your preferred currency (USD, INR, or PKR).
 4. Click **Calculate** to see the total amount after compound interest.
