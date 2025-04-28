@@ -1,0 +1,72 @@
+body{
+    margin: 30px;
+}
+h1{
+    font-size: 40px;
+    color: hsla(0, 51%, 27%, 0.829);
+    text-align: center;
+    margin: 50px;
+    font-family: "Roboto Slab", serif;;
+}
+
+form{
+    text-shadow: 5px 5px 2px rgba(110, 33, 33, 0.849);
+    background-image: url("wood.jpg");
+    max-width: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    font-family: "Robot Slab", serif;
+    font-size: 30px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.925);
+}
+
+label{
+    color: white;
+    margin: 10px;
+}
+input, select{
+    width: 300px;
+    font-size: 30px;
+    background-color: rgba(110, 33, 33, 0.849);
+    text-align: center;
+    color: white;
+    border: 2px inset rgba(29, 10, 10, 0.849);
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+select:hover{
+    color:  rgba(110, 33, 33, 0.849);
+    background-color: white;
+}
+#button-group{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+button{
+    width: 200px;
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+    background-color:  rgba(110, 33, 33, 0.849);
+    cursor: pointer;
+    border: 2px outset rgb(138, 83, 67);   
+}
+
+button:hover{
+    background-color: white ;
+    color: rgba(110, 33, 33, 0.849);
+}
+p{
+    margin-top: 50px;
+    color: white;
+    font-size: 35px;
+}
+p #total-amount{
+    font-weight: bold;
+}

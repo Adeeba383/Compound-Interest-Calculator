@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compound Interest Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Compound Interest Calculator</h1>
+    <form>
+      <label for="Principal">Principal Amount</label>
+      <input type="number" id="Principal">
+
+      <label for="rate">Interest Rate</label>
+      <input type="number" id="rate">
+
+      <label for="compound">Compound Frequency</label>
+      <select name="compound" id="compound">
+        <option value="1" id="year">Yearly</option>
+        <option value="12" id="month">Monthly</option>
+      </select>
+      <label for="currency">Currency:</label>
+      <select id="currency">
+    <option value="USD">USD</option>
+    <option value="PKR">PKR</option>
+    <option value="INR">INR</option>
+    </select>
+     <div id="button-group">
+      <button type="button" onclick="Calculate()">Calculate</button>
+      <button type="button" onclick="Reset()">Reset</button>
+    </div>
+
+    <label>Total: <span id="total-amount">$0.00</span></p>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
